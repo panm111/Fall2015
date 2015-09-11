@@ -1,0 +1,54 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Signika+Negative);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+#header{
+	padding: 0;
+	margin-top: -150px;
+	height: 650px;
+	width: 100%;
+}
+
+.title{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 46pt;
+	text-align: center;	
+	background: #FFFFFF;
+	width: 100%;
+	padding: 0;
+}
+
+.subTitle{
+	font-family: Lato;
+	font-size:medium;
+	text-align: center;
+	background: #FFFFFF;
+}
+
+img {
+	width: 100%;
+	height: auto;	
+}
+
+table{
+	text-align: center;	
+	backgound: #663300;
+}
+
+.caption{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 24px;	
+}
+
+.text{
+	text-align: center;
+	font-family: Lato;
+	font-size: 24pt;
+	width: 100%;
+}
+
+.subTitle a{
+	text-decoration: none;
+	color: #A88355;
+}
