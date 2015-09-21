@@ -42,8 +42,9 @@ var updateTasks = function(){
 		//listen for the click
 		deleteButton.addEventListener('click', function(e){
 			e.preventDefault();
-			deleteTask(e);
-			document.getElementById("swipemp3").play();
+			// deleteTask(e);
+			strikeText(e);
+			// document.getElementById("swipemp3").play();
 		});//end of event listener
 
 		//append the task to the taskdiv
@@ -74,14 +75,24 @@ updateTasks();
 };
 
 
-//delete task
-var deleteTask = function(e){
-	//splice is the deleting from the array. It has 2 parametres
-	var taskNumber= e.target.parentElement.id;
-	taskArray.splice(taskNumber, 1);
-	updateTasks();
-};
+// //delete task
+// var deleteTask = function(e){
+// 	//splice is the deleting from the array. It has 2 parametres
+// 	var taskNumber= e.target.parentElement.id;
+// 	taskArray.splice(taskNumber, 1);
+// 	updateTasks();
+// };
 
+//strikethrough text
+var strikeText = function(e){
+
+	var taskX=document.getElementById('taskList');
+	taskX.style.textDecoration = 'line-through';
+	// taskX.innerHTML = '<strike>' + taskX.innerHTML + '</strike>';
+
+	updateTasks();
+
+};
 
 //init
 var init = function(){
