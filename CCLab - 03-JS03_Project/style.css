@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+body{
+	margin: 0;
+}
+
+header{
+	font-family: Indie Flower, sans-serif;
+	font-size: 34px;
+	text-align: center;
+	margin:5px;
+}
+
+div{
+	text-align: center;
+}
+
+#cats {
+	text-align: center;
+	height: 86vh;
+}
+
+#cats img{
+	height:85vh;
+}
+
+#visitor{
+	text-align: center;
+	font-family: helvetica;
+}
+
+form{
+	text-align: center;
+	margin-top: 50vh;
+}
+
+button{
+	text-align: center;
+	font-family: Indie Flower, sans-serif;
+	font-size: 24px;
+	width: 200px;
+	height: 30px;
+	background-color: #FF6862;
+	color: #fff;
+	border: none;
+}
+
+h3{
+	font-family: Indie Flower, sans-serif;
+	font-size: 24px;
+}
+
+td{
+	font-family: Indie Flower, sans-serif;
+}
