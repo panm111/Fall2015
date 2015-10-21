@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,800);
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body { 
+  margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h1 {
+   font-size: 350%;
+   text-align: center;
+   color: white;
+   text-shadow: 0 2px 2px #000;
+}
+
+.slide {
+  position: relative;
+  padding: 15vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
+
+img {
+  position: absolute;
+  top: 40%;
+  left:55%;
+  width: 40vw;
+  /*left: 35%;
+  width: 320px;
+  height: 240px;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);*/
+}
+
+img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-174%) translateY(-30%) rotate(-5deg);
+}
+
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+
+.title {
+  width: 50%;
+  padding: 5%;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
+
+.header {
+  text-align: center;
+  font-size: 175%;
+  color:white;
+  text-shadow: 0 2px 2px #000;
+}
+
+#title {
+  background-image: url("http://7-themes.com/data_images/out/30/6870517-journey-game.jpg");
+   background-attachment: fixed;  
+   /*background: url(images/city.jpg);*/
+}
+
+#slide1:before {
+  background-image: url("http://www.bookmasters.com/wp-content/uploads/2013/04/woman-looking-through-binoculars.jpg?w=604");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide2 {
+  background-image: url("http://www.wordsinspace.net/wordpress/wp-content/uploads/2013/01/1305675722-room-class-school-classroom-teacher-blackboard-college-wallpaper-wallpaper.jpg");
+  background-attachment: fixed;
+}
+
+#slide3:before {
+  background-image: url("http://assets.feministing.com/wp-content/uploads/2015/03/Overflowing-Bookcases.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide4 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/17/Yellow_school_buses_Pittsburgh.JPG");
+  background-attachment: fixed;
+}
+
+#slide5:before {
+  background-image: url("http://screenmediadaily.com/wp-content/uploads/2013/05/mta_onthego.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide6 {
+  background-image: url("http://nysci.org/wp-content/uploads/18963807455_4f7d527578_k.jpg");
+  background-attachment: fixed;
+}
+
+#slide7:before {
+  background-image: url("http://www.911memorial.org/sites/all/files/articles/Museum%20Pavillion%20Night.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide8 {
+  background-image: url("http://www.slate.com/content/dam/slate/blogs/the_eye/2014/12/11/141211_EYE_4.jpg.CROP.promo-xlarge.jpg");
+  background-attachment: fixed;
+}
+
+#slide9:before {
+  /*background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-5.jpg");*/
+  background-color: #F26B6B;
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide10 {
+  background-image: url("http://abduzeedo.com/files/originals/proto-anim-theme.png");
+  background-attachment: fixed;
+}
+
+#slide11:before {
+  /*background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-5.jpg");*/
+  background-color:#5EB340;
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide12 {
+  /*background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-3.jpg");*/
+  background-color:#FBDE6B;
+  background-attachment: fixed;
+}
+
+#slide13:before {
+  /*background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-5.jpg");*/
+  background-color: #41A0E2;
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide14 {
+  /*background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-3.jpg");*/
+  background-color: #8A8A8A;
+  background-attachment: fixed;
+}
+
+#slide15:before {
+  /*background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-5.jpg");*/
+  background-color: #9C36E2;
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide16 {
+  /*background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-3.jpg");*/
+  background-color: #E2BC7C;
+  background-attachment: fixed;
+}
+
+#slide17:before {
+  /*background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-5.jpg");*/
+  background-color: #41A0E2;
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide18{
+  background: #222;
+}
